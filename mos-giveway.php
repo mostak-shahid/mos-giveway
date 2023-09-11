@@ -13,8 +13,8 @@
  * @package           create-block
  */
 function create_block_mos_giveway_block_init() {
-	register_block_type( __DIR__ . '/build/blocka' );
-	register_block_type( __DIR__ . '/build/blockb' );
+	register_block_type( __DIR__ . '/build/row' );
+	register_block_type( __DIR__ . '/build/column' );
 	register_block_type( __DIR__ . '/build/section' );
 	register_block_type( __DIR__ . '/build/recent-posts', array(
         'render_callback' => 'gutenberg_examples_dynamic_render_callback'
