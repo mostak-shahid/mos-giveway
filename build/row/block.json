@@ -9,6 +9,7 @@
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {
+    "align": true,
     "html": false
   },
   "textdomain": "mos-giveway",

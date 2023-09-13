@@ -4,6 +4,10 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.wp-block-create-block-mos-giveway {
-	border: 1px dotted #f00;
+.wp-block-create-block-mos-giveway-column {
+	min-height: 40px;
+	border: 1px dashed #ccc;
+	.mos-placeholder-text {
+		color: #212529;
+	}
 }

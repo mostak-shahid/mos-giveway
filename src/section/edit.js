@@ -30,15 +30,15 @@ export default function Edit({attributes, setAttributes}) {
 				</PanelBody>
 			</InspectorControls>
 			{
-                    <BlockControls>
-                        <AlignmentToolbar
-                            value={ alignment }
-                            onChange={ ( value ) =>
-								setAttributes( { alignment: value } )
-							}
-                        />
-                    </BlockControls>
-                }
+				<BlockControls>
+					<AlignmentToolbar
+						value={ alignment }
+						onChange={ ( value ) =>
+							setAttributes( { alignment: value } )
+						}
+					/>
+				</BlockControls>
+			}
 			<section { ...useBlockProps() }>
 				<InnerBlocks />
 			</section>
